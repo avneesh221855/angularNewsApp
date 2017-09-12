@@ -1,0 +1,12 @@
+<div class="card">
+        <img class="card-img-top" src={{detail1.urlToImage}} alt="Card image cap" style="max-height: 400px">
+        <div class="card-block">
+          <h4 class="card-title">{{detail1.Title}}</h4>
+          <p class="card-text">{{detail1.description}}</p>
+          <a href="{{detail1.url}}" target="_blank" class="btn btn-primary">More</a>
+          <button   class="btn btn-primary" (click) = "addFav(detail1)">Add Favoritee</button>
+          <!-- {{detail1.publishedAt|date:'medium'}} -->
+          
+        </div>
+    </div>
+ 
